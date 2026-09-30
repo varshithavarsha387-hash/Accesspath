@@ -1,0 +1,25 @@
+# Dependencies
+node_modules/
+package-lock.json
+
+# Build outputs
+dist/
+build/
+
+# Python cache & artifacts
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+*.egg-info/
+
+# Environment & IDE
+.env
+.env.local
+.vscode/
+.idea/
+
+# Local databases & logs
+*.log
+accesspath.db
